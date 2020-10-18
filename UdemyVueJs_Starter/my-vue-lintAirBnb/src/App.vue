@@ -8,12 +8,13 @@
 </template>
 
 <script>
-import Footer from "@/components/Footer.vue";
+import Footer from '@/components/Footer.vue'// ....accordion
+
 export default {
-  components: {
+  component: {
     Footer
   }
-};
+}
 </script>
 
 <style>
