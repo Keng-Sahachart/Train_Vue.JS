@@ -1,4 +1,0 @@
-vue ctreate my-vue
-+ router
-
-npm run serve
