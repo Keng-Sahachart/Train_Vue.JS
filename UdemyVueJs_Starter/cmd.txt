@@ -1,3 +1,12 @@
+setup for vue development
+run npm @vue/cli-->	npm install -g @vue/cli
+
+vs code install  vsCode Extension --> 	Pine Wu's Vetur 
+
+install chrome extension --> Vue.js devtools 
+https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
+--------------------------------------
+
 vue ctreate my-vue
 + router
 
