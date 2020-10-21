@@ -21,6 +21,11 @@ const routes = [
     name: "NewPage",
     component: () => import("../views/NewPage.vue"),
   },
+  {
+    path: "/databinding",
+    name: "DataBinding",
+    component: () => import("../views/DataBinding.vue"),
+  },
 ];
 
 const router = createRouter({

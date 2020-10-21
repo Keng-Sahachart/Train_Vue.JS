@@ -1,17 +1,17 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/newpage">NewPage</router-link>
+  <div id="app">
+    <Navbar />
+    <router-view />
+    <Footer />
   </div>
-  <router-view />
-  <Footer />
 </template>
 
 <script>
 import Footer from "@/components/Footer.vue";
+import Navbar from "@/components/Navbar.vue";
 export default {
   components: {
+    Navbar,
     Footer,
   },
 };
