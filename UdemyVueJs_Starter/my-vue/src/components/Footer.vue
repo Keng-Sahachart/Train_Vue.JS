@@ -8,8 +8,8 @@ export default {
   // data Object
   data() {
     return {
-      currentYear: new Date().getFullYear() + 1
+      currentYear: new Date().getFullYear() + 1,
     };
-  }
+  },
 };
 </script>

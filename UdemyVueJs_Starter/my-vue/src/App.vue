@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/newpage">NewPage</router-link>
   </div>
   <router-view />
   <Footer />
@@ -11,8 +12,8 @@
 import Footer from "@/components/Footer.vue";
 export default {
   components: {
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
 
