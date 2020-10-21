@@ -25,7 +25,28 @@
           <router-link class="nav-link" to="/newpage">NewPage</router-link>
         </li>
         <li class="nav-item active">
-          <router-link class="nav-link" to="/databinding">DataBinding</router-link>
+          <router-link class="nav-link" to="/databinding"
+            >DataBinding</router-link
+          >
+        </li>
+        <li class="nav-item active">
+          <router-link class="nav-link" to="/eventhandler"
+            >EventHandler</router-link
+          >
+        </li>
+        <li class="nav-item active">
+          <router-link class="nav-link" to="/vif">V-if</router-link>
+        </li>
+        <li class="nav-item active">
+          <router-link class="nav-link" to="/vshow">V-Show</router-link>
+        </li>
+        <li class="nav-item active">
+          <router-link class="nav-link" to="/vfor">V-for</router-link>
+        </li>
+        <li class="nav-item active">
+          <router-link class="nav-link" to="/axiosgetuser"
+            >AxiosGetUser</router-link
+          >
         </li>
       </ul>
 
@@ -46,7 +67,7 @@
 
 <script>
 export default {
-  name: "Navbar",
+  name: "Navbar"
 };
 </script>
 
